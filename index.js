@@ -37,8 +37,6 @@ function addGamesToPage(games) {
             <img class="game-img" src="${game.img}" />
             <h3>${game.name}</h3>
             <p>${game.description}</p>
-            <p><strong>Pledged:</strong> $${game.pledged.toLocaleString()}</p>
-            <p><strong>Goal:</strong> $${game.goal.toLocaleString()}</p>
             <p><strong>Backers:</strong> ${game.backers.toLocaleString()}</p>
         `;
 
