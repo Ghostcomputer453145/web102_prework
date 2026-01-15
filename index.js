@@ -181,3 +181,6 @@ topGameName.innerHTML = topGame.name;
 firstGameContainer.appendChild(topGameName);
 
 // do the same for the runner up item
+const secondGameName = document.createElement("p");
+secondGameName.innerHTML = secondTopGame.name;
+secondGameContainer.appendChild(secondGameName);
