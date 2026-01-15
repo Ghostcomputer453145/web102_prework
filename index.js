@@ -113,15 +113,14 @@ function filterFundedOnly() {
             game => game.pledged >= game.goal
         );
         
-        addGamesToPage(fundedGames);
+    addGamesToPage(fundedGames);
 }
 
 // show all games
 function showAllGames() {
     deleteChildElements(gamesContainer);
-
+    addGamesToPage(GAMES_JSON);
     // add all games from the JSON data to the DOM
-
 }
 
 // select each button in the "Our Games" section
