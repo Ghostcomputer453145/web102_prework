@@ -156,6 +156,9 @@ We need your help to fund these amazing games!
 
 
 // create a new DOM element containing the template string and append it to the description container
+const unfundedParagraph = document.createElement("p");
+unfundedParagraph.innerHTML = displayStr;
+descriptionContainer.appendChild(unfundedParagraph);
 
 /************************************************************************************
  * Challenge 7: Select & display the top 2 games
