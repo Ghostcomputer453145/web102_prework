@@ -112,7 +112,6 @@ function filterFundedOnly() {
 function showAllGames() {
     deleteChildElements(gamesContainer);
     addGamesToPage(GAMES_JSON);
-    // add all games from the JSON data to the DOM
 }
 
 // select each button in the "Our Games" section
